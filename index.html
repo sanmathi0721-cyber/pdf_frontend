@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI PDF Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📄 AI PDF Summarizer</h1>
+    <form id="uploadForm">
+      <input type="file" id="pdfFile" accept="application/pdf" required />
+      <button type="submit">Summarize</button>
+    </form>
+
+    <div id="loading" style="display:none;">⏳ Summarizing...</div>
+    <div id="summaryResult"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
